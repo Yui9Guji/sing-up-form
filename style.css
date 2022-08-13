@@ -1,0 +1,19 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    height: 100vh;
+    width: 100vh;
+}
+
+.site {
+    display: flex;
+}
+
+.left-side  {
+    display: flex;
+}
+
+.leaves-img {
+    height: 100vh;
+}
