@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    height: 100vh;
+}
+
+.border {
+    width: 40vw;
+
+    background-image: url("images/background-image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.form {
+    width: 60vw;
+}
