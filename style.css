@@ -20,7 +20,7 @@ body {
     background-position: center;
     background-size: cover;
 
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 .logo {
@@ -30,17 +30,21 @@ body {
     justify-content: center;
 
     width: 40vw;
+    height: 20vh;
+    max-height: 20vh;
+    min-height: 9rem;
 
     background-color: rgba(0, 0, 0, 0.4);
 }
 
 .odin-logo {
-    height: 10rem;
+    height: 8rem;
+
 }
 
 .text-logo {
     color: white;
-    font-size: 7rem;
+    font-size: 6rem;
 }
 
 .form {
