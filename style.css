@@ -8,6 +8,10 @@ fieldset {
     margin: 0;
 }
 
+input {
+    padding-right: 128px;
+}
+
 .content {
     display: flex;
     flex-direction: row;
@@ -82,24 +86,17 @@ fieldset {
     padding-bottom: 32px;
 }
 
-.form-name {
+.form-name, .form-info {
     display: flex;
     flex-direction: row;
-    gap: 15rem;
+    gap: 10rem;
 
     border-color: transparent;
 }
 
-.form-firstname {
+.form-firstname, .form-lastname,
+.form-email, .form-phone {
     display: flex;
     flex-direction: column;
 }
 
-.form-lastname {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-info {
-    border-color: transparent;
-}
