@@ -100,3 +100,12 @@ input {
     flex-direction: column;
 }
 
+.form-password {
+    display: flex;
+    flex-direction: column;
+    border-color: transparent;
+    padding-left: 20rem;
+    padding-bottom: 32px;
+
+    max-width: 303px;
+}
