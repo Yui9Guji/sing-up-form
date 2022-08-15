@@ -139,3 +139,12 @@ i:hover {
     cursor: pointer;
     padding-top: 2px;
 }
+
+.log-in {
+    font-size: 18px;
+}
+
+span {
+    color: #596D48;
+    font-weight: bold;
+}
