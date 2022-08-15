@@ -120,18 +120,23 @@ i:hover {
     color: #1f2937;
 }
 
+.form-main {
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 255, .15);;
+}
+
 .form-table {
     display: flex;
     flex-direction: column;
 
     border-color: transparent;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 255, .15);;
+
 }
 
 .form-header, .form-intro, .form-footer  {
     margin-left: 48px;
     margin-right: 15rem;
     font-weight: bold;
+
 }
 
 .form-name, .form-info{
@@ -165,8 +170,6 @@ i:hover {
     padding-bottom: 32px;
 
     max-width: 303px;
-
-
 }
 
 .pass-label {
@@ -187,6 +190,11 @@ i:hover {
     cursor: pointer;
     padding-left: 3px;
     padding-top: 5px;
+}
+
+.form-submit {
+    border-color: transparent;
+    margin-top: 36px;
 }
 
 .log-in {

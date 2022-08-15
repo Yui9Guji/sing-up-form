@@ -30,66 +30,72 @@
                 <p class="quote">You know you want to.</p>
             </div>
 
-            <div class="form-body">
-
                 <form action="#" class="form-table">
 
-                    <p class="form-intro">Let's do this!</p>
+                    <div class="form-main">
 
-                    <fieldset class="form-name">
+                        <p class="form-intro">Let's do this!</p>
 
-                        <div class="form-firstname">
-                            <label for="first-name">FIRST NAME</label>
-                            <input type="text" name="first-name" id="first-name">
+                        <fieldset class="form-name">
+
+                            <div class="form-firstname">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" name="first-name" id="first-name">
+                            </div>
+
+                            <div class="form-lastname">
+                                <label for="sur-name">LAST NAME</label>
+                                <input type="text" name="sur-name" id="sur-name">
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset class="form-info">
+
+                            <div class="form-email">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+
+                            <div class="form-phone">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" name="phone" id="phone">
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset class="form-password">
+
+                            <label for="password" class="pass-label">PASSWORD</label>
+
+                            <div class="password-input">
+                                <input type="password" name="password" id="password">
+                                <i class="far fa-eye" id="togglePassword"
+                                   style="margin-left: -30px; cursor: pointer;"></i>
+                            </div>
+
+
+                        </fieldset>
+
+                    </div>
+
+
+                    <fieldset class="form-submit">
+                        <div class="form-footer">
+                            <button type="submit" class="create-acc">Create Account</button>
+                            <p class="log-in">Already have an account?
+                                <span class="log">Log in</span> </p>
                         </div>
-
-                        <div class="form-lastname">
-                            <label for="sur-name">LAST NAME</label>
-                            <input type="text" name="sur-name" id="sur-name">
-                        </div>
-
-                    </fieldset>
-
-                    <fieldset class="form-info">
-
-                        <div class="form-email">
-                            <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email">
-                        </div>
-
-                        <div class="form-phone">
-                            <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" name="phone" id="phone">
-                        </div>
-
-                    </fieldset>
-
-                    <fieldset class="form-password">
-
-                        <label for="password" class="pass-label">PASSWORD</label>
-
-                        <div class="password-input">
-                            <input type="password" name="password" id="password">
-                            <i class="far fa-eye" id="togglePassword"
-                               style="margin-left: -30px; cursor: pointer;"></i>
-                        </div>
-
-
                     </fieldset>
 
                 </form>
 
             </div>
 
-            <div class="form-footer">
-                <button type="submit" class="create-acc">Create Account</button>
-                <p class="log-in">Already have an account?
-                    <span class="log">Log in</span> </p>
-            </div>
+
 
         </div>
 
-    </div>
 
 </body>
 </html>
