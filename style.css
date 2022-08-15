@@ -18,6 +18,13 @@ input {
     border: 1px solid #E5E7EB;
     padding-top: 6px;
     padding-bottom: 6px;
+
+    border-radius: 6px;
+}
+
+input:focus {
+    outline: solid 1px #76BA99;
+    box-shadow: 1px 1px 1px 1px #76BA99;
 }
 
 button {
@@ -40,8 +47,12 @@ span:hover {
     cursor: pointer;
 }
 
+i {
+    color: #596D48;
+}
+
 i:hover {
-    color: blue;
+    opacity: 80%;
 }
 
 .content {
