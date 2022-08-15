@@ -12,6 +12,10 @@ input {
     padding-right: 128px;
 }
 
+i:hover {
+    color: blue;
+}
+
 .content {
     display: flex;
     flex-direction: row;
@@ -108,4 +112,14 @@ input {
     padding-bottom: 32px;
 
     max-width: 303px;
+}
+
+.password-input {
+    display: flex;
+    flex-direction: row;
+}
+
+#togglePassword {
+    margin-left: -30px;
+    cursor: pointer;
 }
