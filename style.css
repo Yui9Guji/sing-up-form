@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+a {
+    color: white;
+}
+
 fieldset {
     padding: 0;
     margin: 0;
@@ -37,6 +41,13 @@ i:hover {
     flex-wrap: nowrap;
 
     height: 100vh;
+}
+
+.linking {
+    color: white;
+    position: absolute;
+    top: 95%;
+    opacity: 60%;
 }
 
 .border {
